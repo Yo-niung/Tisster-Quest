@@ -1,0 +1,15 @@
+name: Quest
+version: '1.0-SNAPSHOT'
+main: org.tbtc.test.quest.Quest
+api-version: 1.19
+commands:
+  quest:
+    description: '플레이어가 활성화된 퀘스트를 확인할 수 있습니다.'
+    usage: '/quest'
+  questreload:
+    description: 'Quest 플러그인을 다시 로드합니다.'
+    usage: '/quest reload'
+depend:
+  - PlaceholderAPI
+  - Vault
+  - Towny
